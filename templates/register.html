@@ -1,0 +1,13 @@
+{% extends "base.html" %} {% block title %}Đăng ký{% endblock %} {% block
+content %}
+<div class="auth-form">
+  <h2>Đăng ký tài khoản</h2>
+  <form method="post">
+    <label for="username">Tên đăng nhập</label>
+    <input type="text" name="username" required />
+    <label for="password">Mật khẩu</label>
+    <input type="password" name="password" required />
+    <button type="submit">Đăng ký</button>
+  </form>
+</div>
+{% endblock %}

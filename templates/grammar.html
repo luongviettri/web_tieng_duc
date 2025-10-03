@@ -1,0 +1,11 @@
+{% extends "base.html" %} {% block title %}Ngữ pháp - Học tiếng Đức{% endblock
+%} {% block content %}
+<h1>Ngữ pháp tiếng Đức</h1>
+<p>Dưới đây là tổng hợp các chủ điểm ngữ pháp quan trọng.</p>
+
+{% for title, lesson in grammar_lessons.items() %}
+<div class="grammar-lesson">
+  <h2>{{ title }}</h2>
+  {% for block in lesson.content %} {{ block|safe }} {% endfor %}
+</div>
+{% endfor %} {% endblock %}

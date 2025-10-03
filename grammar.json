@@ -1,0 +1,18 @@
+{
+  "Chia động từ thường (Hiện tại)": {
+    "content": [
+      "<p>Trong tiếng Đức, hầu hết các động từ ở thì hiện tại (Präsens) được chia bằng cách bỏ đuôi '-en' của động từ nguyên thể và thêm vào các đuôi tương ứng với chủ ngữ.</p>",
+      "<table class='grammar-table'><thead><tr><th>Đại từ</th><th>Đuôi động từ</th><th>Ví dụ (lernen - học)</th></tr></thead><tbody><tr><td>ich (tôi)</td><td>-e</td><td>ich lern<b>e</b></td></tr><tr><td>du (bạn)</td><td>-st</td><td>du lern<b>st</b></td></tr><tr><td>er/sie/es (anh/cô/nó ấy)</td><td>-t</td><td>er lern<b>t</b></td></tr><tr><td>wir (chúng tôi)</td><td>-en</td><td>wir lern<b>en</b></td></tr><tr><td>ihr (các bạn)</td><td>-t</td><td>ihr lern<b>t</b></td></tr><tr><td>sie/Sie (họ/ngài)</td><td>-en</td><td>sie lern<b>en</b></td></tr></tbody></table>"
+    ]
+  },
+  "Cách Akkusativ (Đối cách)": {
+    "content": [
+      "<p>Akkusativ là cách được dùng cho <b>tân ngữ trực tiếp</b> trong câu - đối tượng chịu tác động trực tiếp của hành động. Ví dụ: 'Tôi đọc <b>quyển sách</b>'. 'Quyển sách' là tân ngữ trực tiếp.</p>",
+      "<p>Khi ở cách Akkusativ, chỉ có mạo từ của danh từ <b>giống đực (Maskulin)</b> bị thay đổi.</p>",
+      "<table class='grammar-table'><thead><tr><th>Giống</th><th>Nominativ (Chủ cách)</th><th>Akkusativ (Đối cách)</th></tr></thead><tbody><tr><td>Đực (der)</td><td>der</td><td><b>den</b></td></tr><tr><td>Cái (die)</td><td>die</td><td>die</td></tr><tr><td>Trung (das)</td><td>das</td><td>das</td></tr></tbody></table>",
+      "<h4>Ví dụ minh họa:</h4>",
+      "<p class='example-sentence'>Der Mann liest. (Người đàn ông đọc.) - <i>'Der Mann' là chủ ngữ (Nominativ).</i></p>",
+      "<p class='example-sentence'>Ich sehe <b>den</b> Mann. (Tôi nhìn thấy người đàn ông.) - <i>'den Mann' là tân ngữ trực tiếp (Akkusativ).</i></p>"
+    ]
+  }
+}

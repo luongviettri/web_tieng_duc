@@ -1,0 +1,27 @@
+{% extends "base.html" %} {% block title %}Trắc nghiệm: {{ topic }}{% endblock
+%} {% block content %}
+<h1>Trắc nghiệm: {{ topic }}</h1>
+<form action="{{ url_for('result') }}" method="post">
+  {% for question in questions %}
+  <div class="question-block">
+    <p class="german-word">
+      {{ loop.index }}. <strong>{{ question.german }}</strong> có nghĩa là gì?
+    </p>
+    <div class="choices">
+      {% for choice in question.choices %}
+      <label class="choice-label">
+        <input
+          type="radio"
+          name="{{ question.german }}"
+          value="{{ choice }}"
+          required
+        />
+        {{ choice }}
+      </label>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+  <button type="submit" class="submit-button">Nộp bài</button>
+</form>
+{% endblock %}

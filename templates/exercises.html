@@ -1,0 +1,13 @@
+{% extends "base.html" %} {% block title %}Bài tập - Học tiếng Đức{% endblock %}
+{% block content %}
+<h1>Bài tập thực hành</h1>
+<p>Hãy chọn một chủ đề bên dưới để bắt đầu làm bài trắc nghiệm:</p>
+
+<div class="topic-list">
+  {% for topic in topics %}
+  <a href="{{ url_for('quiz', topic_name=topic) }}" class="topic-button"
+    >{{ topic }}</a
+  >
+  {% endfor %}
+</div>
+{% endblock %}

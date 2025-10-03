@@ -1,0 +1,23 @@
+{% extends "base.html" %} {% block title %}Từ vựng - Học tiếng Đức{% endblock %}
+{% block content %}
+<h1>Từ vựng theo chủ đề</h1>
+
+{% for category, words in vocab.items() %}
+<h2>{{ category }}</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Tiếng Đức</th>
+      <th>Tiếng Việt</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for word in words %}
+    <tr>
+      <td>{{ word.german }}</td>
+      <td>{{ word.vietnamese }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endfor %} {% endblock %}

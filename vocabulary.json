@@ -1,0 +1,22 @@
+{
+  "Chào hỏi (Grüße)": [
+    { "german": "Hallo", "vietnamese": "Xin chào" },
+    { "german": "Guten Morgen", "vietnamese": "Chào buổi sáng" },
+    { "german": "Guten Tag", "vietnamese": "Chào buổi trưa/chiều" },
+    { "german": "Guten Abend", "vietnamese": "Chào buổi tối" },
+    { "german": "Auf Wiedersehen", "vietnamese": "Tạm biệt" }
+  ],
+  "Gia đình (Familie)": [
+    { "german": "der Vater", "vietnamese": "Bố" },
+    { "german": "die Mutter", "vietnamese": "Mẹ" },
+    { "german": "der Bruder", "vietnamese": "Anh/em trai" },
+    { "german": "die Schwester", "vietnamese": "Chị/em gái" }
+  ],
+  "Số đếm (Zahlen)": [
+    { "german": "eins", "vietnamese": "một" },
+    { "german": "zwei", "vietnamese": "hai" },
+    { "german": "drei", "vietnamese": "ba" },
+    { "german": "vier", "vietnamese": "bốn" },
+    { "german": "fünf", "vietnamese": "năm" }
+  ]
+}

@@ -1,0 +1,236 @@
+/* static/style.css */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  background-color: #333;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2 {
+  color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+th,
+td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+thead {
+  background-color: #0056b3;
+  color: white;
+}
+/* static/style.css - Thêm vào cuối file */
+
+/* Trang chọn chủ đề */
+.topic-list {
+  margin-top: 2rem;
+}
+.topic-button {
+  display: block;
+  padding: 1rem;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  transition: background-color 0.2s;
+}
+.topic-button:hover {
+  background-color: #0056b3;
+}
+
+/* Trang trắc nghiệm */
+.question-block {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+.german-word {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.choices .choice-label {
+  display: block;
+  margin-bottom: 0.75rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.choices .choice-label:hover {
+  background-color: #e9ecef;
+}
+.submit-button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.submit-button:hover {
+  background-color: #218838;
+}
+
+/* Trang kết quả */
+.score {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #0056b3;
+}
+.results-list {
+  margin-top: 2rem;
+}
+.result-item {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.correct {
+  color: #28a745;
+}
+.incorrect {
+  color: #dc3545;
+}
+/* static/style.css - Thêm vào cuối file */
+
+/* Trang ngữ pháp */
+.grammar-lesson {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+}
+
+.grammar-lesson h2 {
+  border-bottom: 2px solid #0056b3;
+  padding-bottom: 0.5rem;
+}
+
+table.grammar-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+table.grammar-table th,
+table.grammar-table td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+table.grammar-table thead {
+  background-color: #e9ecef;
+  color: #333;
+}
+
+.example-sentence {
+  background-color: #e9ecef;
+  padding: 0.75rem;
+  border-left: 4px solid #007bff;
+  margin: 1rem 0;
+  font-style: italic;
+}
+/* static/style.css - Thêm vào cuối file */
+
+/* Nav bar right align */
+.nav-right {
+  float: right;
+}
+
+/* Flash Messages */
+.alert {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+}
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Auth Forms */
+.auth-form {
+  max-width: 400px;
+  margin: 2rem auto;
+}
+.auth-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.auth-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Dashboard Results Table */
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+.results-table th,
+.results-table td {
+  border: 1px solid #ddd;
+  padding: 0.8rem;
+  text-align: left;
+}
+.results-table thead {
+  background-color: #f2f2f2;
+}

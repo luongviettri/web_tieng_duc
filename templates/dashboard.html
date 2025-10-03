@@ -1,0 +1,28 @@
+{% extends "base.html" %} {% block title %}Bảng điều khiển{% endblock %} {%
+block content %}
+<h1>Lịch sử làm bài của bạn</h1>
+{% if user_results %}
+<table class="results-table">
+  <thead>
+    <tr>
+      <th>Chủ đề</th>
+      <th>Điểm số</th>
+      <th>Ngày làm</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for result in user_results %}
+    <tr>
+      <td>{{ result.topic }}</td>
+      <td>{{ result.score }} / {{ result.total }}</td>
+      <td>{{ result.timestamp.strftime('%d-%m-%Y %H:%M') }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% else %}
+<p>
+  Bạn chưa làm bài tập nào. Hãy vào trang
+  <a href="{{ url_for('exercises') }}">Bài tập</a> để bắt đầu!
+</p>
+{% endif %} {% endblock %}
