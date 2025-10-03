@@ -1,5 +1,47 @@
 {% extends "base.html" %} {% block title %}Trang chủ - Học tiếng Đức{% endblock
 %} {% block content %}
-<h1>Chào mừng bạn đến với trang web học tiếng Đức! 🇩🇪</h1>
-<p>Hãy chọn một mục từ thanh điều hướng để bắt đầu hành trình của bạn.</p>
+<header class="hero">
+  <div class="hero-content">
+    <h1>Chinh phục tiếng Đức một cách dễ dàng</h1>
+    <p class="subtitle">
+      Bắt đầu hành trình học tập của bạn ngay hôm nay với các bài học từ vựng,
+      ngữ pháp và bài tập tương tác.
+    </p>
+    <a href="{{ url_for('exercises') }}" class="cta-button"
+      >Bắt đầu Luyện tập ngay!</a
+    >
+  </div>
+</header>
+
+<section class="features">
+  <h2>Những gì bạn sẽ học</h2>
+  <div class="cards-container">
+    <div class="card">
+      <h3>📖 Từ vựng theo chủ đề</h3>
+      <p>
+        Nắm vững các từ vựng cốt lõi được sắp xếp theo các chủ đề quen thuộc
+        trong cuộc sống hàng ngày.
+      </p>
+      <a href="{{ url_for('vocabulary') }}">Xem từ vựng</a>
+    </div>
+
+    <div class="card">
+      <h3>✍️ Ngữ pháp nền tảng</h3>
+      <p>
+        Hiểu rõ các quy tắc ngữ pháp quan trọng qua những bài giải thích chi
+        tiết và ví dụ dễ hiểu.
+      </p>
+      <a href="{{ url_for('grammar') }}">Học ngữ pháp</a>
+    </div>
+
+    <div class="card">
+      <h3>🧠 Bài tập tương tác</h3>
+      <p>
+        Kiểm tra và củng cố kiến thức của bạn thông qua các bài trắc nghiệm thú
+        vị và đầy thử thách.
+      </p>
+      <a href="{{ url_for('exercises') }}">Làm bài tập</a>
+    </div>
+  </div>
+</section>
 {% endblock %}
